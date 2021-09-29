@@ -1,0 +1,55 @@
+@media (max-width:768px) {
+    .last-card img {
+        position: absolute;
+        top: 10px;
+        right: 0;
+        width: 14%;
+    }
+    .footer-bottom-content img {
+        width: 14%;
+        height: 20px;
+    }
+    .footer-card ul li {
+        padding: 4px 0;
+    }
+    .footer-bottom-content {
+        font-size: 8px;
+        padding-top: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:576px) {
+    .last-card img {
+        width: 20%;
+    }
+    .footer-bottom-content img {
+        width: 14%;
+        height: 15px;
+    }
+    .footer-card ul li {
+        padding: 4px 0;
+    }
+    .footer-bottom-content {
+        font-size: 6px;
+        padding-top: 3px;
+    }
+
+    .left-image-section::after {
+        width: 140px;
+        height: 140px;
+        right: 15px;
+        border-radius: 50%;
+        line-height: 140px;
+        font-size: 22px;
+        font-weight: 500;
+    }
+}
